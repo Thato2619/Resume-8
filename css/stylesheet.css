@@ -94,3 +94,37 @@ footer{
  .qualificationList{
      list-style: circle;
  }
+
+ /*Add Media queries for your resume*/
+ @media  screen and (max-width: 768px ) {
+     /*This is if the browser is 768px or smaller (for example tablet))*/
+     .qualifications{
+         display:inline-block;
+         width: 45%;
+         height:250px ;
+         background-color: #FBFBF2;
+         margin-left: auto ;
+         margin-right: auto;
+     }
+      
+     .details{
+         width: 45%;
+     }
+ }
+
+ @media screen and (max-width: 600px) {
+     /*This is if the browser is 600px (EG cellphone)*/
+     .qualifications{
+         display: block;
+         width: 80% ;
+         height: 250px;
+         background-color: #FBFBF2;
+         margin-left: auto;
+         margin-right: auto;
+     }
+     .details{
+         width: 80%;
+     }
+ }
+
+ 
